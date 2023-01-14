@@ -1,0 +1,165 @@
+html, body {
+   height: 100%;
+  background: #09071A;
+}
+
+/* backgroud
+*/
+.low-opacity-bg-image {
+background-image: url("./low2.jpeg");
+background-size: cover;
+background-position: center;
+color: white;
+display: grid;
+place-content: center;
+text-align: center; 
+position:fixed; 
+  height:100%;
+  left:0px;
+  top:0px;
+  right:0px;
+  isolation:isolate;
+}
+
+.low-opacity-bg-image::after {
+content:"";
+position: absolute;
+z-index:-10;
+inset:0;
+background:#09071A;
+opacity:.8;}
+
+/* header*/
+.fstsquare {position:fixed;
+            top:0px;
+            left:0px;
+            right:0px;
+            height:50px;
+            color:white;
+            background:#09071A;
+            z-index:-1
+            
+  
+}
+/* name*/
+.namelow { position:absolute;
+           left: 50px;
+          top:17px;
+          font-weight:bold;
+          font-size:15px;
+           color:orange;
+           font-family:"Audiowide", sans- serif;
+         }
+
+span { color: white;}
+
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #09071A; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  font-family:PT Sans;}
+
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;}
+
+/* The button used to open the sidebar */
+.openbtn {
+  position:absolute;
+  top: 0px;
+  width:40px;
+  left:0px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#09071A;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  z-index: 555;
+}
+
+.openbtn:hover {
+  background-color: #09071A;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.let-learn1 {
+  position:relative;
+  top: -200%;
+  left: -30%;
+  color:white;
+  font-size:30px;
+  font-family:PT Sans;
+  font-weight:bold;
+}
+
+.let-learn2 {position:relative;
+             top: -140%;
+             left: -4%;
+             font-family:PT Sans;
+             font-size: 25px
+             align-text:center;
+              font-weight:bold;}
+
+
+.let-learn3 { position: relative;
+              top: -96%;
+              font-size:27px;
+             font-weight:1000;
+             color:orange;
+              font-family: PT Sans;}
+
+
+.get-strated { position: absolute;
+         top: 71%;
+        left: 13%;
+        color:white;
+        font-size: 15px;
+        font-weight: bold;
+        z-index:0;
+        border-radius:7px;
+        background:orange;
+        border: solid 0px;
+        height: 50px;
+        width: 75%;}

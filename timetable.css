@@ -1,0 +1,23 @@
+html, body {
+   height: 100%;
+  background:#09071A
+  ;
+}
+
+.timey { position:relative;
+         height:50px;
+         border:solid 0px;
+         font-size: 18px;
+         width:90%;
+         padding:10px;
+         background:orange;
+        color:white;
+        border-radius:7px;
+        text-align:center;
+        left:4%;
+        font-family:PT Sans;
+        top: 40%;
+        font-weight:bold;}
+
+a {text-decoration:none;
+  color:white;}

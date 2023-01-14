@@ -1,0 +1,48 @@
+html, body {
+   height: 100%;
+  background:#09071A
+  ;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: white; /* Fallback color */
+  background-color: black; /* Black w/opacity/see-through */
+  color: white;
+  font-size:12px;
+  font-family: PT Sans;
+  font-weight: bold;
+  border: 3px solid orange;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: left;
+}
+
+
+/* Position text in the middle of the page/image */
+.over {
+  background-color: white; /* Fallback color */
+  background-color: black; /* Black w/opacity/see-through */
+  color: white;
+  font-size:12px;
+  font-family: PT Sans;
+  font-weight: bold;
+  border: 3px solid orange;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+/*overview*/
